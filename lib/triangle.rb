@@ -2,9 +2,9 @@ class Triangle
 
   attr_accessor a:, b:, c:
 
-  def initialize(:equilateral, :isosceles, :scalene)
+  def initialize(a, b, c)
 
   end
-  
+
 
 end
