@@ -24,13 +24,11 @@ class Triangle
     end
   end
 
-    def positive_triangle
-      a.positive? && b.positive? && c.positive?
-    end
+  def positive_triangle
+    a.positive? && b.positive? && c.positive?    end
 
   def triangle_sides
     a + b > c && a + c > b && b + c > a
-  end
   end
 
   class TriangleError < StandardError
