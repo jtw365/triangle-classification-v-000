@@ -22,6 +22,7 @@ class Triangle
     else
       :isosceles
     end
+  end
 
     def positive_triangle
       a.positive? && b.positive? && c.positive?
@@ -33,5 +34,4 @@ class Triangle
   end
 
   class TriangleError < StandardError
-  end
 end
