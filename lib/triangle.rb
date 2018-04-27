@@ -13,6 +13,8 @@ class Triangle
       true
     else
       raise TriangleError
+    end
+    
     if a == b && b == c && a == c
       :equilateral
     elsif a != b && b != c && a != c
