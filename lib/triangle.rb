@@ -25,7 +25,8 @@ class Triangle
   end
 
   def positive_triangle
-    a.positive? && b.positive? && c.positive?    end
+    a.positive? && b.positive? && c.positive?
+  end
 
   def triangle_sides
     a + b > c && a + c > b && b + c > a
