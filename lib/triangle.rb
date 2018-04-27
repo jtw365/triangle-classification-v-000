@@ -16,6 +16,10 @@ class Triangle
     else
       :isosceles
     end
+
+    def positive_triangle
+      a.positive? && b.positive?? && c.positive??
+    end
   end
 
 end
