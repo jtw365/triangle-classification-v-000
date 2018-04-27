@@ -9,7 +9,10 @@ class Triangle
   end
 
   def kind
-    if positive_triangle == true
+    if positive_triangle == true && triangle_sides == true
+      true
+    else
+      raise TriangleError
     if a == b && b == c && a == c
       :equilateral
     elsif a != b && b != c && a != c
