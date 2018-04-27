@@ -14,7 +14,7 @@ class Triangle
     else
       raise TriangleError
     end
-    
+
     if a == b && b == c && a == c
       :equilateral
     elsif a != b && b != c && a != c
@@ -24,7 +24,7 @@ class Triangle
     end
 
     def positive_triangle
-      a.positive? && b.positive?? && c.positive??
+      a.positive? && b.positive? && c.positive?
     end
 
     def triangle_sides
